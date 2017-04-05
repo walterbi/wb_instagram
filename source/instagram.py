@@ -178,7 +178,6 @@ def insta_total(__user__):
 if __name__ == "__main__":
 
 	try:
-		# insta_login("doduchuy1990@gmail.com", "Doduchuy_1990")
 		insta_account = raw_input("[+] Enter instagram account: ")
 
 		driver = webdriver.Firefox()
